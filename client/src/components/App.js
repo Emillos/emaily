@@ -5,8 +5,10 @@ import * as actions from '../actions'
 import Landing from './Landing'
 
 import Header from './header'
-const Dashboard = () => <h2>Dashboard</h2>
+import Dashboard from './dashboard'
+
 const SurveyNew = () => <h2>SurveyNew</h2>
+
 class App extends Component{
 	componentDidMount() {
 		console.log(this.props);
